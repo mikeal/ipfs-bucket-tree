@@ -1,0 +1,24 @@
+{
+  "name": "ipfs-bucket-tree",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "multihashes": "^0.4.13"
+  },
+  "devDependencies": {
+    "ipfs": "^0.29.3",
+    "ipfs-api": "^22.0.2",
+    "ipld-dag-cbor": "^0.12.0",
+    "bent": "^1.1.0",
+    "json-stream": "^1.0.0",
+    "smaz": "^1.0.0",
+    "tap": "^12.0.1"
+  }
+}
